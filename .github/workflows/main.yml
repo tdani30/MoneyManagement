@@ -32,7 +32,7 @@ jobs:
       run: npm install
       
     - name: Build  React App
-      run:   npm run build
+      run:  npm run-script build
       
     - name: Install Surge
       run:  npm install --global surge
