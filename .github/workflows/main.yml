@@ -16,6 +16,8 @@ jobs:
         run:  npm install
       - name: Build React App
         run: npm run build
+        env:
+         CI: false
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
